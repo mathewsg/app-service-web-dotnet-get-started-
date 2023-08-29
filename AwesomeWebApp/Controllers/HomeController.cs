@@ -37,8 +37,8 @@ namespace AwesomeWebApp.Controllers
 
         private class Randomizer
         {
-            private static readonly string[] Animals = { "Bear", "Lion", "Tiger", "Parrot", "Dog", "Cat", "Rabbit", "Dolphin", "Whale", "Giraffe", "Zebra" };
-            private static readonly string[] Adjectives = { "Big", "Tired", "Fearsome", "Giant", "Small", "Smelly", "Cute", "Good", "Aging", "Fancy", "White" };
+            private static readonly string[] Animals = { "Bear", "Lion", "Tiger", "Parrot", "Dog", "Cat", "Rabbit", "Dolphin", "Whale", "Giraffe", "Zebra", "Hen" };
+            private static readonly string[] Adjectives = { "Big", "Tired", "Fearsome", "Giant", "Small", "Smelly", "Cute", "Good", "Aging", "Fancy", "White", "bird" };
 
             private readonly Random _random = new Random();
 
